@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(114, 142, 224);
+  width: 100%;
+  height: auto;
+  padding: 20px 0 20px 0;
+  font-size: 40px;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: bolder;
+  border-bottom: solid 2px gray;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 10px 0 10px 0;
+}
+
+#addbtn {
+  font-size: 15px;
+  margin-right: 10px;
+  padding: 5px 7px 5px 7px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+#addbtn:disabled {
+  background-color: rgb(216, 209, 209);
+}
+#addbtn:hover {
+  background-color: skyblue;
+  color: white;
+}
+
+#removebtn {
+  font-size: 15px;
+  margin-left: 10px;
+  padding: 5px 7px 5px 7px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+#removebtn:disabled {
+  background-color: rgb(216, 209, 209);
+}
+#removebtn:hover {
+  background-color: skyblue;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+input {
+  text-align: center;
+  padding: 5px 3px 5px 3px;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+#savebtn {
+  margin: 5px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+  padding: 4px;
+  margin-right: 5px;
+}
+#savebtn:disabled {
+  background-color: rgb(216, 209, 209);
+}
+#savebtn:hover {
+  background-color: green;
+  color: white;
+}
+
+#cancelbtn {
+  margin: 5px;
+  background-color: white;
+  cursor: pointer;
+  all: unset;
+  margin-left: 5px;
+}
+#cancelbtn:hover {
+  color: red;
+}
+
+.content {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.noprop {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.pro {
+  border: 2px solid lightskyblue;
+  background-color: rgb(202, 224, 238);
+  display: flex;
+  flex-direction: column;
+  margin: 5px 70px 5px 70px;
+  border-radius: 30px;
+  padding: 3px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 2px;
+}
+.desp {
+  font-size: 17px;
+  margin: 2px;
+}
+.size {
+  font-size: 15px;
+  margin: 2px;
+}
+
+footer {
+  background-color: rgb(114, 142, 224);
+  width: 100%;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  border-top: solid 2px gray;
+}
+
+.footer {
+  float: right;
+  margin: 10px;
+  font-weight: 700;
+}
